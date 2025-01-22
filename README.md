@@ -263,7 +263,7 @@ Here, we provide the description of each input parameter.
 "stat.gamma_ratio_t" controls the bandwidth of temporal kernel.(gamma=1/bandwidth)
 
 ### Example 1: SWS
-In this paper's experiments, we use the STKDV with Known Timestamps setup. To generate STKDV in the default region with a resolution of 1280 × 960 and 32 known timestamps from the New York traffic accident dataset (input file: 'New_York'), using the Epanechnikov kernel for both spatial and temporal components, set STKDV_type = 1.
+In this paper's experiments, we use the STKDV with Known Timestamps setup. To generate STKDV in the default region with a resolution of 1280 × 960 and 32 known timestamps from the New York traffic accident dataset (input file: 'New_York'), using the Epanechnikov kernel for both spatial and temporal components.
 ```
 dir="./"
 dataset="New_York"
@@ -287,7 +287,7 @@ method=4
 ```
 
 ### Example 2: COMP_SWS
-Here, we demonstrate STKDV using COMP-processed data, in the default region with a resolution of 1280 × 960 and 32 known timestamps from the New York traffic accident dataset (input file: 'New_York'). The Epanechnikov kernel is used for both spatial and temporal components, with STKDV_type set to 1.
+Here, we demonstrate STKDV using COMP-processed data, in the default region with a resolution of 1280 × 960 and 32 known timestamps from the New York traffic accident dataset (input file: 'New_York'). The Epanechnikov kernel is used for both spatial and temporal components.
 ```
 dir="./COMP_DATA/"
 dataset="New_York"
