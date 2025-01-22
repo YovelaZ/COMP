@@ -281,7 +281,7 @@ n_y=960
 n_z=32
 
 method=4
-#4: SWS方法
+#4: SWS
 
 ./main $dir$dataset"/"$dataset $result_dir$dataset"_X"$n_x"_Y"$n_y"_Z"$n_z"_M"$method"_gs_"$gamma_ratio_s"_gt_"$gamma_ratio_t"_K"$k_type_s $method $n_x $n_y $n_z $k_type_s $k_type_t $gamma_ratio_s $gamma_ratio_t $b $specify_region $is_progressive
 ```
@@ -309,7 +309,7 @@ specify_region=0
 b=1
 
 method=4
-#4: SWS方法
+#4: SWS
 
 ./main $dir$dataset"_e"$e"_bs"$bs"_bt"$bt"_K"$k_type_s $result_dir$dataset"_e"$e"_X"$n_x"_Y"$n_y"_Z"$n_z"_M"$method"_bs"$bs"_bt"$bt"_K"$k_type_t $method $n_x $n_y $n_z $k_type_s $k_type_t $gamma_ratio_s $gamma_ratio_t $b $specify_region $is_progressive
 ```
