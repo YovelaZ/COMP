@@ -23,7 +23,7 @@ ss4 >> stat.e; //control the error of COMP
 After successfully running the COMP code, you will obtain the compressed data suitable for [COMP_PREFIX](COMP_PREFIX_main) and [COMP_SWS](COMP_SWS_main). 
 
 ## Example 1: COMP with Epanechnikov kernels
-Here, we illustrate how to call our COMP to generate the compressed data with the default error 0.05 in the New York traffic accident dataset (with the input file name "New_York") using the Epanechnikov function as spatial and temporal kernels， with kernel_type set to 1. The shell script code is shown as follows.
+Here, we illustrate how to call our COMP to generate the compressed data with the default error 0.05 in the New York traffic accident dataset (with the input file name "New_York") using the Epanechnikov function as spatial and temporal kernels, with kernel_type set to 1. The shell script code is shown as follows.
 ```
 dir="./data"
 dataset="New_York"
@@ -36,7 +36,7 @@ e=0.05
 ./main $dir/$dataset $result_dir/$dataset"_e$e"_bs$b_s"_bt$b_t"_K$kernel_type $b_s $b_t $kernel_type $e
 ```
 ## Example 2: COMP with Triangular kernels
-Here, we illustrate how to call our COMP to generate the compressed data with the default error 0.05 in the New York traffic accident dataset (with the input file name "New_York") using the Triangular function as spatial and temporal kernels， with kernel_type set to 0. The shell script code is shown as follows.
+Here, we illustrate how to call our COMP to generate the compressed data with the default error 0.05 in the New York traffic accident dataset (with the input file name "New_York") using the Triangular function as spatial and temporal kernels, with kernel_type set to 0. The shell script code is shown as follows.
 ```
 dir="./data"
 dataset="New_York"
@@ -49,7 +49,7 @@ e=0.05
 ./main $dir/$dataset $result_dir/$dataset"_e$e"_bs$b_s"_bt$b_t"_K$kernel_type $b_s $b_t $kernel_type $e
 ```
 ## Example 3: COMP with Quartic kernels
-Here, we illustrate how to call our COMP to generate the compressed data with default the error 0.05 in the New York traffic accident dataset (with the input file name "New_York") using the Quartic function as spatial and temporal kernels， with kernel_type set to 2. The shell script code is shown as follows.
+Here, we illustrate how to call our COMP to generate the compressed data with default the error 0.05 in the New York traffic accident dataset (with the input file name "New_York") using the Quartic function as spatial and temporal kernels, with kernel_type set to 2. The shell script code is shown as follows.
 ```
 dir="./data"
 dataset="New_York"
