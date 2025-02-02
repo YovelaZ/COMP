@@ -99,11 +99,7 @@ n_y=960
 n_z=32
 
 method=4
-#0: SCAN方法
-#1: RQS方法（使用kd-tree）
-#2: RQS方法（使用ball-tree）
-#4: SWS方法
-#8: SWS方法（使用kd-tree）
+#4: SWS
 
 echo ./main $dir$dataset"/"$dataset $result_dir$dataset"_X"$n_x"_Y"$n_y"_Z"$n_z"_M"$method"_gs_"$gamma_ratio_s"_gt_"$gamma_ratio_t"_K"$k_type_s $method $n_x $n_y $n_z $k_type_s $k_type_t $gamma_ratio_s $gamma_ratio_t $b $specify_region $is_progressive
 ./main $dir$dataset"/"$dataset $result_dir$dataset"_X"$n_x"_Y"$n_y"_Z"$n_z"_M"$method"_gs_"$gamma_ratio_s"_gt_"$gamma_ratio_t"_K"$k_type_s $method $n_x $n_y $n_z $k_type_s $k_type_t $gamma_ratio_s $gamma_ratio_t $b $specify_region $is_progressive
