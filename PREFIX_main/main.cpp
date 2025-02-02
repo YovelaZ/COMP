@@ -7,7 +7,7 @@ int main(int argc, char**argv)
 	visual_Algorithm(stat);
 	save_result_to_file(stat);
 
-    	std::string filename = "./Results_Quartic/time.txt"; 
+    	std::string filename = "./Results/time.txt"; 
     	std::string new_line = argv[2] + std::string(" needs ") + std::to_string(stat.runtime) + " seconds.";
 
     	std::ifstream file(filename, std::ios::in | std::ios::binary);
