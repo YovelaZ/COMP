@@ -50,11 +50,11 @@ g++ main.cpp -O3 -o main init_visual.o Euclid_Bound.o SS.o SWS.o bucket.o otf_vi
 #}
 
 ###Example for calling our method, PREFIX, to support STKDV with the 1280 x 960 resolution size and 32 known timestamps (STKDV_type = 1) using the default region.###
-#dataFileName="./Kansas_crime/Kansas_crime"
+
 dir="./COMP_DATA"
 dataset="Maryland_Traffic_Violations"
 result_dir="./Results/"
-# outputFileName="./Results/Kansas_crime_STKDV_1_Method_2_K1"
+
 
 STKDV_type=1
 
@@ -73,3 +73,4 @@ bs=1
 bt=1
 echo ./main $dir"/"$dataset"_e"$e"_bs"$bs"_bt"$bt"_K"$k_type_s $result_dir$dataset"_e"$e"_X"$n_x"_Y"$n_y"_T"$n_t"_STKDV"$STKDV_type"_M"$method"_bs"$bs"_bt"$bt $STKDV_type $method $n_x $n_y $n_t $k_type_s $k_type_t $b_s_ratio $b_t_ratio $is_default_region
 ./main $dir"/"$dataset"_e"$e"_bs"$bs"_bt"$bt"_K"$k_type_s $result_dir$dataset"_e"$e"_X"$n_x"_Y"$n_y"_T"$n_t"_STKDV"$STKDV_type"_M"$method"_bs"$bs"_bt"$bt $STKDV_type $method $n_x $n_y $n_t $k_type_s $k_type_t $b_s_ratio $b_t_ratio $is_default_region
+s
