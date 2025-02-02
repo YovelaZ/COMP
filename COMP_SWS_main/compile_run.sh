@@ -103,11 +103,8 @@ specify_region=0
 b=1
 
 method=4
-#0: SCAN方法
-#1: RQS方法（使用kd-tree）
-#2: RQS方法（使用ball-tree）
-#4: SWS方法
-#8: SWS方法（使用kd-tree）
+#4: SWS
+
 
 echo ./main $dir$dataset"_e"$e"_bs"$bs"_bt"$bt"_K"$k_type_s $result_dir$dataset"_e"$e"_X"$n_x"_Y"$n_y"_Z"$n_z"_M"$method"_bs"$bs"_bt"$bt"_K"$k_type_t $method $n_x $n_y $n_z $k_type_s $k_type_t $gamma_ratio_s $gamma_ratio_t $b $specify_region $is_progressive
 ./main $dir$dataset"_e"$e"_bs"$bs"_bt"$bt"_K"$k_type_s $result_dir$dataset"_e"$e"_X"$n_x"_Y"$n_y"_Z"$n_z"_M"$method"_bs"$bs"_bt"$bt"_K"$k_type_t $method $n_x $n_y $n_z $k_type_s $k_type_t $gamma_ratio_s $gamma_ratio_t $b $specify_region $is_progressive
