@@ -50,11 +50,9 @@ g++ main.cpp -O3 -o main init_visual.o Euclid_Bound.o SS.o SWS.o bucket.o otf_vi
 #}
 
 ###Example for calling our method, PREFIX, to support STKDV with the 1280 x 960 resolution size and 32 known timestamps (STKDV_type = 1) using the default region.###
-#dataFileName="./Kansas_crime/Kansas_crime"
 dir="./"
 dataset="New_York_Crashes"
 result_dir="./Results/"
-#outputFileName="./Results/Kansas_crime_STKDV_1_Method_2_K1"
 STKDV_type=1
 
 
