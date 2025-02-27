@@ -61,7 +61,7 @@ e=0.05
 
 ./main $dir/$dataset $result_dir/$dataset"_e$e"_bs$b_s"_bt$b_t"_K$kernel_type $b_s $b_t $kernel_type $e
 ```
-# How to Run Our STKDV Data Calculation Code? (SWS, COMP_SWS, PREFIX and COMP_PREFIX)
+# How to Run Our STKDV Data Calculation Code? (SWS, COMP_SWS, PREFIX, and COMP_PREFIX)
 ## PREFIX and COMP_PREFIX
 In order to compile our [PREFIX](PREFIX_main) and [COMP_PREFIX](COMP_PREFIX_main) C++ code, you need to write the following shell scripts in the ".sh file".
 ```
