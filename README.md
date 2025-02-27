@@ -1,5 +1,5 @@
 # Code Descriptions
-This code is the implementation of our paper "A Fast and Accurate Block Compression Solution for Spatiotemporal Kernel Density Visualization", which is submitted to KDD 2025. Due to space limitations of the Github repository, we do not upload the datasets into this link. However, all datasets are the open data, which can be downloaded from the references in Table Ⅲ(see the column "Ref."). We have also attached ["example_data"](example_data) to show the format of the input data file. The data is stored in the following format: the first row, the data size (n), spatial bandwidth, and temporal bandwidth. Starting from the second row, each sample is recorded with columns for the x-coordinate (in meters), y-coordinate (in meters) and timestamp (in days).
+This code is the implementation of our paper "A Fast and Accurate Block Compression Solution for Spatiotemporal Kernel Density Visualization", which is submitted to KDD 2025. Due to space limitations of the Github repository, we do not upload the datasets into this link. However, all datasets are the open data, which can be downloaded from the references in Table Ⅲ (see the column "Ref."). We have also attached ["example_data"](example_data) to show the format of the input data file. The data is stored in the following format: the first row, the data size (n), spatial bandwidth, and temporal bandwidth. Starting from the second row, each sample is recorded with columns for the x-coordinate (in meters), y-coordinate (in meters) and timestamp (in days).
 
 # How to Call Our COMP Code?
 First, use the code in the [COMP_main](COMP_main) folder for data compression, selecting the appropriate method based on the desired kernel function.
@@ -7,7 +7,7 @@ First, use the code in the [COMP_main](COMP_main) folder for data compression, s
 g++ -std=c++11 main.cpp -o main
 ```
 
-After the compilation, you can run our COMP algorithm by executing the compiled C++ code with the correct parameters. This will generate the appropriate data results for both [COMP_PREFIX](COMP_PREFIX_main) and [COMP_SWS](COMP_SWS_main). The required parameters are shown in lines 35-45 of the C++ code snippet in [COMP_main/main.cpp].(In this section, the spatial and temporal bandwidths in the required data ["example_data"](example_data) can be replaced with null values.)
+After the compilation, you can run our COMP algorithm by executing the compiled C++ code with the correct parameters. This will generate the appropriate data results for both [COMP_PREFIX](COMP_PREFIX_main) and [COMP_SWS](COMP_SWS_main). The required parameters are shown in lines 35-45 of the C++ code snippet in [COMP_main/main.cpp]. (In this section, the spatial and temporal bandwidths in the required data ["example_data"](example_data) can be replaced with null values.)
 ```
 stat.dataFileName = argv[1]; //The input file name
 stat.outputFileName = argv[2]; //The output file name
